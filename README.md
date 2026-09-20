@@ -121,12 +121,12 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```bash
-OPENROUTER_API_KEY=your_openai_api_key_here
+OPENROUTER_API_KEY=your_openrouter_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 ```
 
 Get your keys from:
-- [OPENROUTER API](https://openrouter.ai/workspaces/default/presets)
+- [OPENROUTER API](https://openrouter.ai/workspaces/default/keys)
 - [Tavily API](https://tavily.com)
 
 ---
@@ -199,23 +199,6 @@ The system generates reports with:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgments
 
