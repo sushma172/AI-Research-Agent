@@ -1,6 +1,4 @@
 from langchain.agents import create_agent
-#from langchain_cohere import ChatCohere
-from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from src.tools.tools import web_search, scrape_url
@@ -8,21 +6,6 @@ from dotenv import load_dotenv
 import os
 from langchain_openai import ChatOpenAI
 load_dotenv()
-#COHERE_API_KEY = os.getenv("COHERE_API_KEY")
-#GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
-# Model Initialization
-# llm = ChatCohere(
-#     model="command-a-03-2025",
-#     temperature=0,
-#     cohere_api_key=COHERE_API_KEY
-# )
-# llm = ChatGoogleGenerativeAI(
-#     model="gemini-3.6-flash",
-#     temperature=0,
-#     google_api_key=GEMINI_API_KEY
-# )
-
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 llm = ChatOpenAI(
